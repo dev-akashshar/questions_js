@@ -1,4 +1,7 @@
 // Q33: Use body-parser middleware to parse incoming request bodies.
+// Objective: Parse JSON and URL-encoded request bodies in Express.
+// Explanation: Express middleware converts incoming payloads into usable properties on req.body. The extended option controls how nested URL-encoded data is parsed. Concept: body parsing middleware.
+
 
 const express = require("express");
 const app = express();

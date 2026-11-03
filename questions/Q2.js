@@ -1,4 +1,7 @@
 // Q2: Declare variables using var, let, and const. Show how scope differs inside a block.
+// Objective: Understand the scope differences between var, let, and const.
+// Explanation: var is function-scoped, while let and const are block-scoped. The try-catch blocks show why block variables cannot be accessed outside their block. Concepts: scope and declarations.
+
 
 {
   var a = "var inside block";

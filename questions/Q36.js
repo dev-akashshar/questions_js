@@ -1,4 +1,7 @@
 // Q36: Use express.Router() to modularize routes.
+// Objective: Organize Express routes with express.Router().
+// Explanation: Router groups related routes into a modular object that can be mounted on the main app. This keeps route definitions easier to maintain. Concept: modular routing.
+
 
 const express = require("express");
 const app = express();

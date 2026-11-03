@@ -1,4 +1,7 @@
 // Q49: Use indexes to optimize search on the title field.
+// Objective: Optimize book-title searches with a MongoDB index.
+// Explanation: The index on title helps MongoDB locate matching titles more efficiently. Mongoose creates the index from the schema definition. Concept: database indexing.
+
 
 const mongoose = require("mongoose");
 

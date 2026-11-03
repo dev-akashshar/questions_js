@@ -1,4 +1,7 @@
 // Q43: Build a query to find students who scored between 60 and 90.
+// Objective: Find students whose marks are between 60 and 90.
+// Explanation: $gte and $lte define inclusive lower and upper limits for marks. MongoDB returns documents satisfying both conditions. Concepts: range queries and comparison operators.
+
 
 /*
 MongoDB Shell Command:

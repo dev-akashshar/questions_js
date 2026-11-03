@@ -1,4 +1,7 @@
 // Q25: Demonstrate the difference between == and === with examples.
+// Objective: Compare loose equality and strict equality in JavaScript.
+// Explanation: == converts types before comparing values, while === compares both value and type. The examples show why strict equality is usually safer. Concepts: equality and type coercion.
+
 
 // == (Loose Equality): Compares values with type coercion
 // === (Strict Equality): Compares values and types without coercion

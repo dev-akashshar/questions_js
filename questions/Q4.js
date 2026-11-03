@@ -1,4 +1,7 @@
 // Q4: Use typeof to display the data types of different variables.
+// Objective: Identify the data type of different JavaScript values.
+// Explanation: The typeof operator returns the type of each variable. The example covers strings, numbers, booleans, objects, undefined, and symbols. Concept: type checking.
+
 
 const str = "Hello";
 const num = 25;

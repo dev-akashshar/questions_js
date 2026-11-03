@@ -1,4 +1,7 @@
 // Q30: Define routes for /home, /about, and /contact.
+// Objective: Define separate Express routes for home, about, and contact pages.
+// Explanation: Each app.get() maps a URL path to a response handler. Express sends different text for each route. Concepts: routing and request handlers.
+
 
 const express = require("express");
 const app = express();

@@ -1,4 +1,7 @@
 // Q16: Convert a callback-based function into a Promise-based one.
+// Objective: Convert a callback-based function into a Promise-based function.
+// Explanation: The Promise wrapper calls resolve() after the callback-style work completes. This allows the operation to be used with then() or async/await. Concepts: callbacks and Promises.
+
 
 // Callback-based function
 const fetchCallback = (id, callback) => {

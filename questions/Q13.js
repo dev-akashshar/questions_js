@@ -1,4 +1,7 @@
 // Q13: Manipulate the DOM to change the text of a <p> tag when a button is clicked.
+// Objective: Change paragraph text when a button is clicked.
+// Explanation: The event handler finds the paragraph with getElementById() and updates textContent. The function is connected to the button click event. Concepts: DOM selection, events, and textContent.
+
 
 // In HTML: <p id="text">Original Text</p> <button id="btn">Click Me</button>
 

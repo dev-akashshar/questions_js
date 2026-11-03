@@ -1,4 +1,7 @@
 // Q37: Install MongoDB and create a database named studentDB.
+// Objective: Install MongoDB and create a database named studentDB.
+// Explanation: mongosh opens the MongoDB shell, and use studentDB selects or creates the database context. MongoDB creates the database when data is first stored. Concept: MongoDB database selection.
+
 
 /*
 MongoDB Shell (mongosh) Commands:

@@ -1,4 +1,7 @@
 // Q6: Demonstrate the use of arithmetic and logical operators with examples.
+// Objective: Demonstrate arithmetic and logical operators.
+// Explanation: Arithmetic operators calculate numeric results, while logical operators combine or invert boolean values. The console displays each result. Concepts: operators and boolean logic.
+
 
 const a = 10;
 const b = 3;

@@ -1,4 +1,7 @@
 // Q21: Create a simple React component that displays your name.
+// Objective: Create a React component that displays a person's name.
+// Explanation: The component receives name through props and renders it inside an h1 element. A default value is used when no name is provided. Concepts: React components, props, and JSX.
+
 
 /*
 // React Component (ES6 Arrow Function):

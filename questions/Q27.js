@@ -1,4 +1,7 @@
 // Q27: Debug a Node.js app using console.log() and node inspect.
+// Objective: Debug a Node.js program using console.log() and the inspector.
+// Explanation: console.log() displays input and calculated values, while debugger pauses execution when Node Inspector is used. This helps examine program state step by step. Concepts: debugging and breakpoints.
+
 
 // Command to inspect: node inspect questions/Q27.js
 
