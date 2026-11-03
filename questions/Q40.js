@@ -1,4 +1,7 @@
 // Q40: Update a student's marks using updateOne().
+// Objective: Update a student's marks in MongoDB.
+// Explanation: updateOne() locates the document using rollNo and $set changes only the marks field. The operation updates the first matching document. Concepts: updateOne() and the $set operator.
+
 
 /*
 MongoDB Shell Command:

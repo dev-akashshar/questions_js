@@ -1,4 +1,7 @@
 // Q32: Create a POST route that accepts JSON data and logs it.
+// Objective: Accept and log JSON data in an Express POST route.
+// Explanation: express.json() parses the incoming JSON body and stores it in req.body. The POST handler can then log or process the submitted data. Concepts: middleware, POST requests, and request bodies.
+
 
 const express = require("express");
 const app = express();

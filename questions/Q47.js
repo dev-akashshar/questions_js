@@ -1,4 +1,7 @@
 // Q47: Add a modifier to make the book title uppercase before saving.
+// Objective: Convert a book title to uppercase before saving it.
+// Explanation: A Mongoose setter transforms the title value whenever it is assigned. The document is saved with the normalized uppercase title. Concept: Mongoose schema modifiers.
+
 
 const mongoose = require("mongoose");
 

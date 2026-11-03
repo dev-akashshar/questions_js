@@ -1,4 +1,7 @@
 // Q22: Use useState to toggle between two messages on button click.
+// Objective: Toggle between two messages when a React button is clicked.
+// Explanation: useState() stores the toggle status, and the click handler reverses it. Conditional rendering displays the appropriate message. Concepts: state, events, and conditional rendering.
+
 
 /*
 // React Component:

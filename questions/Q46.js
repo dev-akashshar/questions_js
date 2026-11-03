@@ -1,4 +1,7 @@
 // Q46: Create a model and insert a new book document.
+// Objective: Create a Mongoose model and insert a book document.
+// Explanation: The model is created from the Book schema and provides database operations. new Book() creates a document, and save() stores it in MongoDB. Concepts: models and document creation.
+
 
 const mongoose = require("mongoose");
 

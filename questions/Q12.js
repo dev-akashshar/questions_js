@@ -1,4 +1,7 @@
 // Q12: Write a program to swap two variables using array destructuring.
+// Objective: Swap two variable values without using a temporary variable.
+// Explanation: Array destructuring assigns the values in reversed order in one statement. The variables exchange values safely and clearly. Concept: ES6 array destructuring.
+
 
 let x = 10;
 let y = 20;

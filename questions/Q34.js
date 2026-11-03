@@ -1,4 +1,7 @@
 // Q34: Enable CORS in your Express app and explain its purpose.
+// Objective: Enable cross-origin requests in an Express application.
+// Explanation: The cors middleware adds the headers required for approved cross-origin requests. This allows a frontend on another origin to communicate with the server. Concept: CORS.
+
 
 // Purpose of CORS (Cross-Origin Resource Sharing):
 // It is a security mechanism that allows or restricts web applications running at one

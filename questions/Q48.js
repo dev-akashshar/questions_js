@@ -1,4 +1,7 @@
 // Q48: Use a virtual field to calculate discounted price.
+// Objective: Calculate a discounted book price with a Mongoose virtual field.
+// Explanation: The virtual getter calculates a value from the stored price without adding a database field. It returns the price after applying the discount. Concept: Mongoose virtuals.
+
 
 const mongoose = require("mongoose");
 

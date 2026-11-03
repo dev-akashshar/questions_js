@@ -1,4 +1,7 @@
 // Q45: Define a Mongoose schema for a Book with title, author, and price.
+// Objective: Define a Mongoose schema for a Book document.
+// Explanation: The schema describes title, author, and price fields with their data types and required rules. Mongoose uses it to validate and structure documents. Concept: schema definition.
+
 
 const mongoose = require("mongoose");
 

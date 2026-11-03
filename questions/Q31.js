@@ -1,4 +1,7 @@
 // Q31: Use route parameters to capture user ID from /user/:id.
+// Objective: Capture a user ID from an Express route parameter.
+// Explanation: The :id placeholder accepts a value from the URL, and req.params provides that value. The server sends the captured ID in the response. Concept: route parameters.
+
 
 const express = require("express");
 const app = express();

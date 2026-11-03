@@ -1,4 +1,7 @@
 // Q42: Use query operators to find students with marks greater than 80.
+// Objective: Find students whose marks are greater than 80.
+// Explanation: $gt selects documents where marks are above the specified value. The query can be used directly in MongoDB or passed to Mongoose. Concept: comparison query operators.
+
 
 /*
 MongoDB Shell Command:

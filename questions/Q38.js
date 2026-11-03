@@ -1,4 +1,7 @@
 // Q38: Insert multiple student documents into a collection.
+// Objective: Insert multiple student documents into a MongoDB collection.
+// Explanation: insertMany() stores several document objects in the students collection in one operation. Each document contains student details such as name, roll number, and marks. Concept: MongoDB bulk insertion.
+
 
 /*
 MongoDB Shell Command:

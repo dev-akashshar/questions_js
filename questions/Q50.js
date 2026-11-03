@@ -1,4 +1,7 @@
 // Q50: Retrieve all books priced below ₹500 using Mongoose query.
+// Objective: Retrieve all books priced below 500 using Mongoose.
+// Explanation: The $lt operator filters documents whose price is less than 500. The query returns matching books through the Mongoose model. Concepts: Mongoose queries and comparison operators.
+
 
 const mongoose = require("mongoose");
 
