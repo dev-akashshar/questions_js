@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab Output Screenshots (Q1 to Q50)</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Consolas', 'Courier New', monospace;
+      background: #f0f0f0;
+      color: #111;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    @page {
+      size: A4 portrait;
+      margin: 8mm 6mm;
+    }
+    .print-bar {
+      background: #1e1e1e;
+      color: #fff;
+      padding: 12px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .print-btn {
+      background: #007acc;
+      color: white;
+      border: none;
+      padding: 8px 20px;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 15px;
+    }
+    .print-btn:hover {
+      background: #005999;
+    }
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      max-height: 297mm;
+      margin: 10px auto;
+      background: #fff;
+      padding: 6mm;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(5, 52mm);
+      gap: 5mm;
+      page-break-after: always;
+      break-after: page;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    @media print {
+      body {
+        background: #fff;
+      }
+      .print-bar {
+        display: none !important;
+      }
+      .page {
+        margin: 0;
+        box-shadow: none;
+        width: 100%;
+        height: 100vh;
+        max-height: 100vh;
+        padding: 4mm;
+        gap: 4mm;
+      }
+    }
+    .slip {
+      border: 1.5px dashed #444;
+      border-radius: 4px;
+      padding: 3px 5px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      overflow: hidden;
+    }
+    .slip-tag {
+      font-size: 9.5px;
+      font-weight: bold;
+      color: #222;
+      border-bottom: 1px dotted #888;
+      padding-bottom: 2px;
+      margin-bottom: 2px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .terminal {
+      border: 1px solid #777;
+      border-radius: 3px;
+      background: #fafafa;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .terminal-bar {
+      background: #e4e4e4;
+      border-bottom: 1px solid #bbb;
+      padding: 2px 6px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 8px;
+      color: #333;
+      font-weight: bold;
+    }
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      display: inline-block;
+      background: #bbb;
+      border: 0.5px solid #888;
+    }
+    .terminal-title {
+      margin-left: 4px;
+      letter-spacing: 0.3px;
+    }
+    .terminal-body {
+      padding: 3px 6px;
+      font-size: 8.5px;
+      line-height: 1.25;
+      color: #111;
+      flex: 1;
+      overflow: hidden;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+    .prompt {
+      color: #0b6623;
+      font-weight: bold;
+    }
+    .cmd {
+      color: #000;
+      font-weight: bold;
+    }
+    .out {
+      color: #1a1a1a;
+      display: block;
+      margin-top: 1px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <span>🖨️ <strong>MERN Lab Practical - Output Screenshots (50 Questions / 5 A4 Sheets)</strong> - Har page par exact 10 outputs hain.</span>
+    <button class="print-btn" onclick="window.print()">Print (Ctrl + P)</button>
+  </div>
+
+  <!-- ==================== PAGE 1 (Q1 to Q10) ==================== -->
+  <div class="page">
+    <!-- Q1 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q1</span><span>Page 1 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q1.js</span>
+<span class="out">Hello, JavaScript!</span></div>
+      </div>
+    </div>
+
+    <!-- Q2 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q2</span><span>Page 1 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q2.js</span>
+<span class="out">var inside block
+b is not accessible outside block (let is block-scoped)
+c is not accessible outside block (const is block-scoped)</span></div>
+      </div>
+    </div>
+
+    <!-- Q3 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q3</span><span>Page 1 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q3.js</span>
+<span class="out">4 is Even
+7 is Odd</span></div>
+      </div>
+    </div>
+
+    <!-- Q4 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q4</span><span>Page 1 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q4.js</span>
+<span class="out">str   : string
+num   : number
+bool  : boolean
+obj   : object
+undef : undefined
+sym   : symbol</span></div>
+      </div>
+    </div>
+
+    <!-- Q5 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q5</span><span>Page 1 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q5.js</span>
+<span class="out">Marks 95 -&gt; Grade: A
+Marks 80 -&gt; Grade: B
+Marks 60 -&gt; Grade: C
+Marks 25 -&gt; Grade: F</span></div>
+      </div>
+    </div>
+
+    <!-- Q6 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q6</span><span>Page 1 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q6.js</span>
+<span class="out">Addition: 13 | Subtraction: 7 | Multiplication: 30
+Division: 3.3333333333333335 | Modulus: 1 | Exp: 1000
+Logical AND (x &amp;&amp; y): false
+Logical OR  (x || y): true
+Logical NOT (!x)    : false</span></div>
+      </div>
+    </div>
+
+    <!-- Q7 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q7</span><span>Page 1 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q7.js</span>
+<span class="out">1
+2
+3
+4
+5
+6
+7
+8
+9
+10</span></div>
+      </div>
+    </div>
+
+    <!-- Q8 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q8</span><span>Page 1 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q8.js</span>
+<span class="out">Square of 4: 16
+Square of 7: 49</span></div>
+      </div>
+    </div>
+
+    <!-- Q9 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q9</span><span>Page 1 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q9.js</span>
+<span class="out">Original Array: [ 1, 2, 3, 4, 5 ]
+Doubled Array : [ 2, 4, 6, 8, 10 ]</span></div>
+      </div>
+    </div>
+
+    <!-- Q10 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q10</span><span>Page 1 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q10.js</span>
+<span class="out">Original Array: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+Even Numbers  : [ 2, 4, 6, 8, 10 ]</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PAGE 2 (Q11 to Q20) ==================== -->
+  <div class="page">
+    <!-- Q11 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q11</span><span>Page 2 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q11.js</span>
+<span class="out">ID: 101, Name: Rahul, Course: MERN</span></div>
+      </div>
+    </div>
+
+    <!-- Q12 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q12</span><span>Page 2 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q12.js</span>
+<span class="out">Before Swap: x = 10, y = 20
+After Swap : x = 20, y = 10</span></div>
+      </div>
+    </div>
+
+    <!-- Q13 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q13</span><span>Page 2 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q13.js</span>
+<span class="out">DOM script (Browser):
+const btn = document.getElementById("btn");
+const p = document.getElementById("text");
+btn.addEventListener("click", () =&gt; { p.textContent = "Text changed on button click!"; });</span></div>
+      </div>
+    </div>
+
+    <!-- Q14 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q14</span><span>Page 2 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q14.js</span>
+<span class="out">Error caught successfully: Expected double-quoted property name in JSON at position 18 (line 1 column 19)</span></div>
+      </div>
+    </div>
+
+    <!-- Q15 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q15</span><span>Page 2 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q15.js</span>
+<span class="out">Promise resolved after 2 seconds!</span></div>
+      </div>
+    </div>
+
+    <!-- Q16 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q16</span><span>Page 2 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q16.js</span>
+<span class="out">Data for ID: 101</span></div>
+      </div>
+    </div>
+
+    <!-- Q17 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q17</span><span>Page 2 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q17.js</span>
+<span class="out">Fetched Data: {
+  userId: 1,
+  id: 1,
+  title: 'delectus aut autem',
+  completed: false
+}</span></div>
+      </div>
+    </div>
+
+    <!-- Q18 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q18</span><span>Page 2 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q18.js</span>
+<span class="out">JSON Data: {
+  userId: 1,
+  id: 1,
+  title: 'sunt aut facere repellat provident...',
+  body: 'quia et suscipit suscipit recusandae...'
+}</span></div>
+      </div>
+    </div>
+
+    <!-- Q19 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q19</span><span>Page 2 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q19.js</span>
+<span class="out">Axios Response Data: {
+  userId: 1,
+  id: 1,
+  title: 'sunt aut facere repellat provident...',
+  body: 'quia et suscipit suscipit recusandae...'
+}</span></div>
+      </div>
+    </div>
+
+    <!-- Q20 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q20</span><span>Page 2 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q20.js</span>
+<span class="out">JSON String: {"id":1,"name":"Akash","role":"Developer"}
+Parsed Object: { id: 1, name: 'Akash', role: 'Developer' }</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PAGE 3 (Q21 to Q30) ==================== -->
+  <div class="page">
+    <!-- Q21 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q21</span><span>Page 3 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q21.js</span>
+<span class="out">React Component Output:
+Hello, my name is Akash Sharma!</span></div>
+      </div>
+    </div>
+
+    <!-- Q22 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q22</span><span>Page 3 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q22.js</span>
+<span class="out">Initial Message : Message One: Welcome!
+After Click     : Message Two: Goodbye!</span></div>
+      </div>
+    </div>
+
+    <!-- Q23 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q23</span><span>Page 3 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q23.js</span>
+<span class="out">Server running at http://localhost:3001/
+Response on browser: "Hello from Node"</span></div>
+      </div>
+    </div>
+
+    <!-- Q24 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q24</span><span>Page 3 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q24.js</span>
+<span class="out">npm init and express setup successful!
+Express loaded: true</span></div>
+      </div>
+    </div>
+
+    <!-- Q25 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q25</span><span>Page 3 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q25.js</span>
+<span class="out">5 == "5"          : true  | 5 === "5"         : false
+0 == false        : true  | 0 === false       : false
+null == undefined : true  | null === undefined: false</span></div>
+      </div>
+    </div>
+
+    <!-- Q26 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q26</span><span>Page 3 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q26.js</span>
+<span class="out">Hello, Akash! Welcome to custom module.</span></div>
+      </div>
+    </div>
+
+    <!-- Q27 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q27</span><span>Page 3 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q27.js</span>
+<span class="out">[DEBUG] Input Price: 500, Discount: 20%
+[DEBUG] Final Price Calculated: 400
+Calculated Price: 400</span></div>
+      </div>
+    </div>
+
+    <!-- Q28 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q28</span><span>Page 3 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q28.js</span>
+<span class="out">Exported multiply(6, 7) Result = 42</span></div>
+      </div>
+    </div>
+
+    <!-- Q29 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q29</span><span>Page 3 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q29.js</span>
+<span class="out">Express server running on http://localhost:3000</span></div>
+      </div>
+    </div>
+
+    <!-- Q30 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q30</span><span>Page 3 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q30.js</span>
+<span class="out">Routes configured: /home, /about, /contact
+Routes server running at http://localhost:3002</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PAGE 4 (Q31 to Q40) ==================== -->
+  <div class="page">
+    <!-- Q31 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q31</span><span>Page 4 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q31.js</span>
+<span class="out">Route configured: GET /user/:id -&gt; req.params.id
+Captured User ID: 101</span></div>
+      </div>
+    </div>
+
+    <!-- Q32 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q32</span><span>Page 4 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q32.js</span>
+<span class="out">POST /data route ready to accept and log JSON.
+Received JSON Data: { name: 'Akash', role: 'Developer' }</span></div>
+      </div>
+    </div>
+
+    <!-- Q33 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q33</span><span>Page 4 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q33.js</span>
+<span class="out">Body parsing middleware enabled for JSON and Form URL-encoded bodies.</span></div>
+      </div>
+    </div>
+
+    <!-- Q34 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q34</span><span>Page 4 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q34.js</span>
+<span class="out">CORS middleware enabled successfully.
+Response: "CORS is enabled for this API route."</span></div>
+      </div>
+    </div>
+
+    <!-- Q35 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q35</span><span>Page 4 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q35.js</span>
+<span class="out">[LOG] Method: GET | URL: /api/products
+Middleware executed and passed control to next()</span></div>
+      </div>
+    </div>
+
+    <!-- Q36 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q36</span><span>Page 4 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q36.js</span>
+<span class="out">express.Router() mounted on '/user' (/profile, /settings).</span></div>
+      </div>
+    </div>
+
+    <!-- Q37 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q37</span><span>Page 4 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q37.js</span>
+<span class="out">MongoDB Database Name: studentDB
+Connection URI       : mongodb://127.0.0.1:27017/studentDB
+Shell Command        : use studentDB</span></div>
+      </div>
+    </div>
+
+    <!-- Q38 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q38</span><span>Page 4 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q38.js</span>
+<span class="out">Documents to insert into 'students' collection:
+[
+  { name: 'Rahul', rollNo: 101, marks: 85 },
+  { name: 'Priya', rollNo: 102, marks: 92 },
+  { name: 'Amit',  rollNo: 103, marks: 78 }
+]
+Query: db.students.insertMany(studentDocuments)</span></div>
+      </div>
+    </div>
+
+    <!-- Q39 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q39</span><span>Page 4 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q39.js</span>
+<span class="out">MongoDB Query: db.students.find({})
+Explanation  : find() retrieves all documents matching the filter.</span></div>
+      </div>
+    </div>
+
+    <!-- Q40 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q40</span><span>Page 4 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q40.js</span>
+<span class="out">MongoDB Query: db.students.updateOne(filter, updateDoc)
+Filter Criteria: { rollNo: 101 }
+Update Payload  : { '$set': { marks: 95 } }</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PAGE 5 (Q41 to Q50) ==================== -->
+  <div class="page">
+    <!-- Q41 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q41</span><span>Page 5 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q41.js</span>
+<span class="out">MongoDB Query: db.students.deleteOne(filter)
+Filter Criteria: { studentId: 101 }
+Document with studentId 101 marked for deletion.</span></div>
+      </div>
+    </div>
+
+    <!-- Q42 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q42</span><span>Page 5 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q42.js</span>
+<span class="out">Query Syntax : db.students.find(query)
+Query Filter : { marks: { '$gt': 80 } }
+Explanation  : $gt selects documents where marks field &gt; 80.</span></div>
+      </div>
+    </div>
+
+    <!-- Q43 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q43</span><span>Page 5 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q43.js</span>
+<span class="out">Query Syntax : db.students.find(query)
+Query Filter : { marks: { '$gte': 60, '$lte': 90 } }
+Explanation  : Filters range between 60 and 90.</span></div>
+      </div>
+    </div>
+
+    <!-- Q44 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q44</span><span>Page 5 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q44.js</span>
+<span class="out">MongoDB connected successfully with Mongoose!
+Database: studentDB connected on port 27017</span></div>
+      </div>
+    </div>
+
+    <!-- Q45 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q45</span><span>Page 5 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q45.js</span>
+<span class="out">Book Schema Defined Successfully.
+Schema Fields: [ 'title', 'author', 'price', '_id' ]</span></div>
+      </div>
+    </div>
+
+    <!-- Q46 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q46</span><span>Page 5 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q46.js</span>
+<span class="out">Book Model Created.
+New Document Instance: {
+  title: 'Mastering Node.js',
+  author: 'John Doe',
+  price: 499
+}</span></div>
+      </div>
+    </div>
+
+    <!-- Q47 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q47</span><span>Page 5 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q47.js</span>
+<span class="out">Modifier configured: Book title will be converted to UPPERCASE before saving.
+Saved Title: "MASTERING NODE.JS"</span></div>
+      </div>
+    </div>
+
+    <!-- Q48 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q48</span><span>Page 5 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q48.js</span>
+<span class="out">Original Price  : ₹500
+Discounted Price: ₹450 (calculated via virtual field)</span></div>
+      </div>
+    </div>
+
+    <!-- Q49 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q49</span><span>Page 5 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q49.js</span>
+<span class="out">Index defined on 'title' field to optimize search queries.
+Schema Indexes: [ [ { title: 1 }, {} ] ]</span></div>
+      </div>
+    </div>
+
+    <!-- Q50 -->
+    <div class="slip">
+      <div class="slip-tag"><span>✂️ Output for Q50</span><span>Page 5 / 5</span></div>
+      <div class="terminal">
+        <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">Windows PowerShell</span></div>
+        <div class="terminal-body"><span class="prompt">C:\Users\Akash\MERN&gt;</span> <span class="cmd">node Q50.js</span>
+<span class="out">Mongoose Query for books priced below ₹500:
+Syntax: Book.find({ price: { $lt: 500 } })
+Filter Object: { price: { '$lt': 500 } }</span></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
